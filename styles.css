@@ -10,6 +10,9 @@ font-family: 'Poppins', sans-serif;  400,500,700*/
 body {
   font-family: var(--text-font);
 }
+.navbar{
+    background: var(--background-color);
+}
 .hero {
   background: var(--background-color);
   text-align: center;
@@ -17,7 +20,7 @@ body {
 .hero-heading {
   font-weight: 700;
   font-size: 36px;
-  padding-top: 276px;
+  padding-top: 194px;
   color: var(--dark-text-color);
 }
 .hero-name {
