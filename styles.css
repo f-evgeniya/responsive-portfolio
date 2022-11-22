@@ -1,2 +1,53 @@
-/* font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif; */
+/* font-family: 'Playfair Display', serif; 700
+font-family: 'Poppins', sans-serif;  400,500,700*/
+:root {
+  --background-color: #f9f7fe;
+  --dark-text-color: #272142;
+  --accent-color: #6c63ff;
+  --heading-font: "Playfair Display", serif;
+  --text-font: "Poppins", sans-serif;
+}
+body {
+  font-family: var(--text-font);
+}
+.hero {
+  background: var(--background-color);
+  text-align: center;
+}
+.hero-heading {
+  font-weight: 700;
+  font-size: 36px;
+  padding-top: 276px;
+  color: var(--dark-text-color);
+}
+.hero-name {
+  font-family: var(--heading-font);
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1.5;
+  color: black;
+}
+.hero-profession {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1.5;
+  color: var(--dark-text-color);
+  margin-top: 24px;
+}
+.hero-button {
+  background: var(--accent-color);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+  text-decoration: none;
+  padding: 18px 30px;
+  border-radius: 4px;
+  margin-top: 50px;
+  margin-bottom: 271px;
+  text-transform: capitalize;
+}
+.hero-button:hover {
+  background: var(--accent-color);
+  color: #fff;
+}
