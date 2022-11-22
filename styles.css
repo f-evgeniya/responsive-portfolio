@@ -12,8 +12,14 @@ body {
 }
 .navbar {
   background: var(--background-color);
+  padding-top: 40px;
 }
 
+.nav-link {
+  color: var(--dark-text-color);
+  font-weight: 500;
+  font-size: 16px;
+}
 .hero {
   background: var(--background-color);
   text-align: center;
