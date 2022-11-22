@@ -10,9 +10,10 @@ font-family: 'Poppins', sans-serif;  400,500,700*/
 body {
   font-family: var(--text-font);
 }
-.navbar{
-    background: var(--background-color);
+.navbar {
+  background: var(--background-color);
 }
+
 .hero {
   background: var(--background-color);
   text-align: center;
