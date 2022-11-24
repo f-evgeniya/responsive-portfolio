@@ -13,6 +13,12 @@
   .hero-name {
     font-size: 90px;
   }
+  .projects {
+    text-align: center;
+  }
+  .project-card {
+    padding: 20px 30px 40px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -22,10 +28,22 @@
   .hero-name {
     font-size: 86px;
   }
+  .project-title {
+    font-size: 58px;
+  }
 }
 
 @media (max-width: 576px) {
   .hero-profession {
     font-size: 20px;
+  }
+  .project-saction-title {
+    padding: 0 50px;
+  }
+  .project-title {
+    font-size: 54px;
+  }
+  .project-card {
+    padding: 20px 40px 40px;
   }
 }
