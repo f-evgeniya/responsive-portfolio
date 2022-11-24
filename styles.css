@@ -17,8 +17,13 @@ body {
 
 .nav-link {
   color: var(--dark-text-color);
+  opacity: 0.7;
   font-weight: 500;
   font-size: 16px;
+}
+.active{
+  color: var(--accent-color)!important;
+  opacity: 1;
 }
 .hero {
   background: var(--background-color);
@@ -85,6 +90,7 @@ body {
   color: var(--text-font);
   line-height: 1.8;
   margin-top: 55px;
+  opacity: 0.7;
 }
 .outline-button {
   background: #fff;
