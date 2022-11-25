@@ -21,8 +21,8 @@ body {
   font-weight: 500;
   font-size: 16px;
 }
-.active{
-  color: var(--accent-color)!important;
+.active {
+  color: var(--accent-color) !important;
   opacity: 1;
 }
 .hero {
@@ -49,7 +49,8 @@ body {
   color: var(--dark-text-color);
   margin-top: 24px;
 }
-.hero-button {
+.hero-button,
+.inquiry-button {
   background: var(--accent-color);
   font-weight: 500;
   font-size: 18px;
@@ -62,7 +63,8 @@ body {
   margin-bottom: 271px;
   text-transform: capitalize;
 }
-.hero-button:hover {
+.hero-button:hover,
+.inquiry-button:hover {
   background: var(--accent-color);
   color: #fff;
 }
@@ -75,7 +77,7 @@ body {
   line-height: 1.5;
   color: var(--dark-text-color);
 }
-.project-card{
+.project-card {
   padding: 80px 0 0 60px;
 }
 .project-title {
@@ -83,7 +85,7 @@ body {
   font-weight: 700;
   font-size: 64px;
   line-height: 1.3;
-  
+  color: black;
 }
 .project-descr {
   font-size: 16px;
@@ -103,9 +105,36 @@ body {
   padding: 18px 30px;
   border-radius: 4px;
   margin-top: 50px;
-    text-transform: capitalize;
- }
-.outline-button:hover{
+  text-transform: capitalize;
+}
+.outline-button:hover {
   color: #fff;
   background: var(--accent-color);
+}
+.inquiry-section {
+  background: var(--background-color);
+  margin-top: 132px;
+}
+.inquiry-title {
+  font-family: var(--heading-font);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.3;
+  color: black;
+  margin-bottom: 18px;
+}
+.inquiry-text {
+  margin: 50px 0 0 120px;
+}
+.inquiry-descr {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--text-font);
+  opacity: 0.7;
+}
+.inquiry-button {
+  margin-bottom: 0;
+  
+  
 }
