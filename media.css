@@ -9,8 +9,8 @@
     margin-top: 30px;
   }
   .about-section-content {
-  padding: 20px 0 0 0;
-}
+    padding: 20px 0 0 0;
+  }
 }
 @media (max-width: 992px) {
   .hero-name {
@@ -22,9 +22,11 @@
   .project-card {
     padding: 20px 30px 40px;
   }
-  .about-section-container{
-    text-align: center;
+  .about-section-container {
     padding: 70px 0 0 0;
+  }
+  .about-section-content {
+    text-align: center;
   }
 }
 
@@ -38,7 +40,7 @@
   .project-title {
     font-size: 58px;
   }
-  .about-section-heading{
+  .about-section-heading {
     font-size: 58px;
   }
 }
@@ -56,11 +58,10 @@
   .project-card {
     padding: 20px 40px 40px;
   }
-   .about-section-heading{
+  .about-section-heading {
     font-size: 54px;
   }
-  .about-section-container{
-
+  .about-section-container {
     padding: 70px 20px 0;
   }
 }

@@ -140,9 +140,11 @@ body {
 
 .about-section-container {
   padding: 157px 0 0 0;
+  text-align: center;
 }
 .about-section-content {
   padding: 20px 90px 0 0;
+  text-align: left;
 }
 .about-section-heading {
   font-family: var(--heading-font);
