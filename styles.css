@@ -10,11 +10,13 @@ font-family: 'Poppins', sans-serif;  400,500,700*/
 body {
   font-family: var(--text-font);
 }
-.navbar {
+.homepage-navbar {
   background: var(--background-color);
   padding-top: 40px;
 }
-
+.navbar {
+  padding-top: 40px;
+}
 .nav-link {
   color: var(--dark-text-color);
   opacity: 0.7;
@@ -134,3 +136,31 @@ body {
   opacity: 0.7;
 }
 
+/* about */
+
+.about-section-container {
+  padding: 157px 0 0 0;
+}
+.about-section-content {
+  padding: 20px 90px 0 0;
+}
+.about-section-heading {
+  font-family: var(--heading-font);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: black;
+}
+.about-section-profession {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--dark-text-color);
+}
+.about-section-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--dark-text-color);
+  opacity: 0.7;
+}
