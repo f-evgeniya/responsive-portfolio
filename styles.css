@@ -28,6 +28,7 @@ body {
 .hero {
   background: var(--background-color);
   text-align: center;
+  padding-bottom: 271px;
 }
 .hero-heading {
   font-weight: 700;
@@ -48,6 +49,7 @@ body {
   line-height: 1.5;
   color: var(--dark-text-color);
   margin-top: 24px;
+  margin-bottom: 50px;
 }
 .hero-button,
 .inquiry-button {
@@ -59,8 +61,6 @@ body {
   text-decoration: none;
   padding: 18px 30px;
   border-radius: 4px;
-  margin-top: 50px;
-  margin-bottom: 271px;
   text-transform: capitalize;
 }
 .hero-button:hover,
@@ -133,8 +133,4 @@ body {
   color: var(--text-font);
   opacity: 0.7;
 }
-.inquiry-button {
-  margin-bottom: 0;
-  
-  
-}
+
