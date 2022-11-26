@@ -8,7 +8,10 @@
   .outline-button {
     margin-top: 30px;
   }
-  
+  .email-form {
+    width: 80%;
+    text-align: left;
+  }
 }
 @media (max-width: 992px) {
   .hero-name {
@@ -25,6 +28,10 @@
   }
   .content {
     text-align: center;
+  }
+  .email-form {
+    width: 100%;
+    text-align: left;
   }
 }
 

@@ -174,3 +174,11 @@ body {
   font-weight: 700;
   color: black;
 }
+/* contact */
+.email-form{
+ width: 60%;
+}
+.form-label{
+  font-size: 18px;
+  color: var(--dark-text-color);
+}
