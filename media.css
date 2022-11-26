@@ -8,7 +8,7 @@
   .outline-button {
     margin-top: 30px;
   }
-  .about-section-content {
+  .content {
     padding: 20px 0 0 0;
   }
 }
@@ -22,10 +22,10 @@
   .project-card {
     padding: 20px 30px 40px;
   }
-  .about-section-container {
+  .content-container {
     padding: 70px 0 0 0;
   }
-  .about-section-content {
+  .content {
     text-align: center;
   }
 }
@@ -40,7 +40,7 @@
   .project-title {
     font-size: 58px;
   }
-  .about-section-heading {
+  .content-heading {
     font-size: 58px;
   }
 }
@@ -49,7 +49,7 @@
   .hero-profession {
     font-size: 20px;
   }
-  .project-saction-title {
+  .project-section-title {
     padding: 0 50px;
   }
   .project-title {
@@ -58,10 +58,10 @@
   .project-card {
     padding: 20px 40px 40px;
   }
-  .about-section-heading {
+  .content-heading {
     font-size: 54px;
   }
-  .about-section-container {
+  .content-container {
     padding: 70px 20px 0;
   }
 }
