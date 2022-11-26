@@ -8,6 +8,9 @@
   .outline-button {
     margin-top: 30px;
   }
+  .about-section-content {
+  padding: 20px 0 0 0;
+}
 }
 @media (max-width: 992px) {
   .hero-name {
@@ -19,6 +22,10 @@
   .project-card {
     padding: 20px 30px 40px;
   }
+  .about-section-container{
+    text-align: center;
+    padding: 70px 0 0 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -29,6 +36,9 @@
     font-size: 86px;
   }
   .project-title {
+    font-size: 58px;
+  }
+  .about-section-heading{
     font-size: 58px;
   }
 }
@@ -45,5 +55,12 @@
   }
   .project-card {
     padding: 20px 40px 40px;
+  }
+   .about-section-heading{
+    font-size: 54px;
+  }
+  .about-section-container{
+
+    padding: 70px 20px 0;
   }
 }
