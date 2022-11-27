@@ -15,14 +15,16 @@ body {
   padding-top: 40px;
 }
 .navbar {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 .nav-link {
   color: var(--dark-text-color);
   opacity: 0.7;
   font-weight: 500;
   font-size: 16px;
+  transition: all 100ms ease-in-out;
 }
+.nav-link:hover,
 .active {
   color: var(--accent-color) !important;
   opacity: 1;
@@ -109,6 +111,7 @@ body {
   border-radius: 4px;
   margin-top: 50px;
   text-transform: capitalize;
+  transition: all 250ms ease-in-out;
 }
 .outline-button:hover {
   color: #fff;
@@ -168,17 +171,18 @@ body {
   opacity: 0.7;
 }
 /* work */
-.project-heading{
+.project-heading {
   font-size: 24px;
   line-height: 1.5;
   font-weight: 700;
   color: black;
 }
 /* contact */
-.email-form{
- width: 60%;
+.email-form {
+  width: 60%;
 }
-.form-label{
+.form-label {
   font-size: 18px;
   color: var(--dark-text-color);
+  font-family: var(--text-font);
 }
