@@ -121,7 +121,7 @@ body {
 /* about */
 
 .content-container {
-  padding: 157px 0 0 0;
+  padding: 157px 0 80px 0;
   text-align: center;
 }
 .content {
@@ -173,8 +173,8 @@ body {
   margin-bottom: 80px;
   padding: 30px 120px;
 }
-.contact-text{
-  margin: 40px 0;
+.contact-text {
+  margin: 30px 0;
 }
 .contact-title {
   font-family: var(--heading-font);
@@ -197,25 +197,24 @@ body {
   font-size: 24px;
   font-weight: 500;
   text-decoration: none;
-  
-  }
-  .email:hover{
-    color: var(--accent-color);
-  }
-  .social-links{
-    margin-bottom: 100px;
-  }
-.social-links a{
+}
+.email:hover {
+  color: var(--accent-color);
+}
+.social-links {
+  margin-bottom: 100px;
+}
+.social-links a {
   font-size: 18px;
   font-weight: normal;
   color: var(--accent-color);
   padding: 10px 14px;
   margin: 0 20px;
-    border-radius: 50%;
+  border-radius: 50%;
   background: var(--background-color);
   transition: all150ms ease-in-out;
 }
-.social-links a:hover{
+.social-links a:hover {
   color: white;
   background: var(--accent-color);
 }
