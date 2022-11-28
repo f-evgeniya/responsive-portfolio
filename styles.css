@@ -109,7 +109,7 @@ body {
   text-decoration: none;
   padding: 18px 30px;
   border-radius: 4px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   text-transform: capitalize;
   transition: all 250ms ease-in-out;
 }
