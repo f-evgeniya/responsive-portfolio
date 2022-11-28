@@ -5,7 +5,7 @@
   .project-card {
     padding: 20px 0 0 60px;
   }
-  
+
   .email-form {
     width: 80%;
     text-align: left;
@@ -31,8 +31,12 @@
     width: 100%;
     text-align: left;
   }
-  .contact-title{
+  .contact-title {
     font-size: 40px;
+  }
+  .content-heading-work {
+    padding-right: 0;
+    text-align: center;
   }
 }
 
@@ -48,6 +52,9 @@
   }
   .content-heading {
     font-size: 58px;
+  }
+  .created {
+    padding: 0 30px;
   }
 }
 
