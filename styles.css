@@ -205,16 +205,25 @@ body {
   margin-bottom: 100px;
 }
 .social-links a {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: normal;
   color: var(--accent-color);
-  padding: 10px 14px;
+  padding: 10px 16px;
   margin: 0 20px;
   border-radius: 50%;
   background: var(--background-color);
-  transition: all150ms ease-in-out;
+  transition: all 150ms ease-in-out;
 }
 .social-links a:hover {
   color: white;
   background: var(--accent-color);
+}
+.created {
+  font-family: var(--text-font);
+  color: var(--dark-text-color);
+  font-size: 16px;
+  font-weight: normal;
+}
+.created a {
+  color: var(--dark-text-color);
 }
